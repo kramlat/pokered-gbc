@@ -4,9 +4,10 @@ This is a disassembly of Pokémon Red and Blue.
 
 It builds the following ROMs:
 
-- Pokemon Red (UE) [S][!].gb `sha1: ea9bcae617fdf159b045185467ae58b2e4a48b9a`
-- Pokemon Blue (UE) [S][!].gb `sha1: d7037c83e1ae5b39bde3c30787637ba1d4c48ce2`
-- BLUEMONS.GB (debug build) `sha1: 5b1456177671b79b263c614ea0e7cc9ac542e9c4`
+- Pokemon Red (UE) [S][!].gbc `sha1: ea9bcae617fdf159b045185467ae58b2e4a48b9a`
+- Pokemon Blue (UE) [S][!].gbc `sha1: d7037c83e1ae5b39bde3c30787637ba1d4c48ce2`
+- Pokemon Green (UE) [S][!].gbc `sha1: 3b3a11ddbf6e6c1d64b5418b7d5787ea233b4b1f`
+- BLUEMONS.GBC (debug build) `sha1: 5b1456177671b79b263c614ea0e7cc9ac542e9c4`
 
 To set up the repository, see [**INSTALL.md**](INSTALL.md).
 
