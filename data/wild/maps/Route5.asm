@@ -24,5 +24,17 @@ IF DEF(_BLUE)
 	db 14, MEOWTH
 	db 16, MEOWTH
 ENDC
+IF DEF(_GREEN)
+	db 13, ODDISH
+	db 13, PIDGEY
+	db 15, PIDGEY
+	db 10, MEOWTH
+	db 12, MEOWTH
+	db 15, BELLSPROUT
+	db 16, BELLSPROUT
+	db 16, PIDGEY
+	db 14, MEOWTH
+	db 16, MEOWTH
+ENDC
 
 	db 0 ; water encounter rate

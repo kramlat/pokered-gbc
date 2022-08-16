@@ -24,5 +24,17 @@ IF DEF(_BLUE)
 	db 39, MUK
 	db 37, WEEZING
 ENDC
+IF DEF(_GREEN)
+	db 32, GROWLITHE
+	db 34, GRIMER
+	db 34, GRIMER
+	db 30, PONYTA
+	db 30, GRIMER
+	db 32, PONYTA
+	db 30, KOFFING
+	db 28, PONYTA
+	db 39, MUK
+	db 37, WEEZING
+ENDC
 
 	db 0 ; water encounter rate

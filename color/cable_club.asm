@@ -48,6 +48,9 @@ ENDC
 IF DEF(_BLUE)
 	ld d, PAL_BLUEMON
 ENDC
+IF DEF(_GREEN)
+	ld d, PAL_GREENMON
+ENDC
 	ld e, 0
 .loop:
 	push de
