@@ -21,5 +21,14 @@ IF DEF(_BLUE)
 	db 13, SANDSHREW
 	db 17, SANDSHREW
 ENDC
+IF DEF(_GREEN)
+	db 11, EKANS
+	db 13, SPEAROW
+	db 15, EKANS
+	db 17, RATTATA
+	db 17, SPEAROW
+	db 13, SANDSHREW
+	db 17, SANDSHREW
+ENDC
 
 	db 0 ; water encounter rate

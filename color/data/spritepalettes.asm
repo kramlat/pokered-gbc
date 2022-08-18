@@ -193,11 +193,15 @@ AttackSpritePalettes:
 
 ; Not related to sprites, move this somewhere else?
 SlotPaletteMap:
-IF DEF(_RED)
+	IF DEF(_RED)
 	INCBIN "color/data/slotpalettemap_red.bin"
-ELSE
+	ENDC
+	IF DEF(_GREEN)
+	INCBIN "color/data/slotpalettemap_red.bin"
+	ENDC
+	IF DEF(_BLUE)
 	INCBIN "color/data/slotpalettemap_blue.bin"
-ENDC
+	ENDC
 
 SlotSpritePaletteMap:
 	; Seven
@@ -215,7 +219,11 @@ SlotSpritePaletteMap:
 	; Penguin/Bird/Something (red), Dugtrio (blue)
 	IF DEF(_RED)
 	db ATK_PAL_BLUE,ATK_PAL_BLUE,ATK_PAL_BLUE,ATK_PAL_BLUE
-	ELSE ; _BLUE
+	ENDC
+	IF DEF(_GREEN)
+	db ATK_PAL_BLUE,ATK_PAL_BLUE,ATK_PAL_BLUE,ATK_PAL_BLUE
+	ENDC
+	IF DEF(_BLUE)
 	db ATK_PAL_BROWN,ATK_PAL_BROWN,ATK_PAL_BROWN,ATK_PAL_BROWN
 	ENDC
 

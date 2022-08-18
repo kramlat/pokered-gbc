@@ -23,5 +23,16 @@ IF DEF(_BLUE)
 	db 15, VULPIX
 	db 18, VULPIX
 ENDC
+IF DEF(_GREEN)
+	db 18, MEOWTH
+	db 17, SANDSHREW
+	db 16, VULPIX
+	db 20, PIDGEY
+	db 20, MEOWTH
+	db 19, SANDSHREW
+	db 17, GROWLITHE
+	db 15, GROWLITHE
+	db 18, GROWLITHE
+ENDC
 
 	db 0 ; water encounter rate
